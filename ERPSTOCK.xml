@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ERP Stock Accounting" >
+  <test name="Stock Item Test Cases">
+    <classes>
+         <class name="TESTNGDEMO.StockIT"/>
+         <class name="TESTNGDEMO.LOGInPG"/>
+          
+      </classes>
+  </test>
+</suite>

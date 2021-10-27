@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+	 <parameter name="browser" value="Chrome"/>
+	 <parameter name="username" value="admin"/>
+	 <parameter name="password" value="master"/>
+	  <parameter name="URL" value="http://projects.qedgetech.com/webapp/login.php"/>
+		<classes>
+			<class name="TESTNGDEMO.parameter" />
+		</classes>
+	</test>
+</suite>

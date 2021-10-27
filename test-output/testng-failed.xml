@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameterization Test Suite]">
+  <test thread-count="5" name="Testing Parameterization(failed)">
+    <parameter name="password" value="master"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="link" value="http://projects.qedgetech.com/webapp/login.php"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="TESTNGDEMO.parameter">
+        <methods>
+          <include name="testlaunch"/>
+        </methods>
+      </class> <!-- TESTNGDEMO.parameter -->
+    </classes>
+  </test> <!-- Testing Parameterization(failed) -->
+</suite> <!-- Failed suite [Parameterization Test Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ERP Stock Accounting]">
+  <test thread-count="5" name="Stock Item Test Cases(failed)">
+    <classes>
+      <class name="TESTNGDEMO.StockIT">
+        <methods>
+          <include name="TC6_Verify_admin_is_able_to_access_StockItems_page"/>
+          <include name="TC_7_stkad"/>
+          <include name="TC_5"/>
+        </methods>
+      </class> <!-- TESTNGDEMO.StockIT -->
+    </classes>
+  </test> <!-- Stock Item Test Cases(failed) -->
+</suite> <!-- Failed suite [ERP Stock Accounting] -->
